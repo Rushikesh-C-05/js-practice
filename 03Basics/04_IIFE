@@ -1,0 +1,18 @@
+// Immediately Invoked Function Expression (IIFE)
+// () () -- Syntax
+
+(function chai () {
+    // named IIFE
+    console.log(`DB CONNECTED`);   
+}) ();
+
+// (function definition) (execution call)
+((name) => {
+    console.log(`DB CONNECTED TWO ${name}`);
+}) ('Rushi')
+
+
+// js is single threaded
+// global execution context
+// functional execution context
+// eval execution context (optional)
